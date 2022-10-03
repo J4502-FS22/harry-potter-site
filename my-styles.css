@@ -12,30 +12,41 @@ body {
   font-family: 'Cormorant Garamond', serif;
 }
 
-h1 {
-  font-family: 'Rubik', sans-serif;
+nav {
+  color: #E3AD16;
+  background-color: #000000;
+  padding: 2rem auto;
+  display: block;
 }
 
-h2 {
-  font-family: 'Rubik', sans-serif;
-  weight: 700;
-  font-style: italic;
-}
-
-h3 {
-  font-family: 'Rubik', sans-serif;
-}
-
-ul {
-  list-style-type: none;
-}
-
-li {
-  list-style-type: none;
+nav a {
+  color: #E3AD16;
 }
 
 a {
   font-weight: bold;
   font-style: italic;
   text-decoration: none;
+}
+
+h1, h2, h3 {
+  font-family: 'Rubik', sans-serif;
+}
+
+h2 {
+  font-weight: 700;
+  font-style: italic;
+}
+
+ul, ol {
+  list-style-type: none;
+}
+
+li {
+  list-style-type: none;
+  font-style: italic;
+}
+
+ol li {
+  text-transform: uppercase;
 }
