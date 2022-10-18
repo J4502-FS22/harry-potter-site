@@ -6,7 +6,7 @@ font-size: 20px;
 }
 
 body {
-  margin: 0;
+  margin: 0px;
   background-color: #E3AD16;
   font-family: 'Cormorant Garamond', serif;
 }
@@ -14,20 +14,31 @@ body {
 main {
   width: 90%;
   max-width: 1000px;
-  margin: 20px auto;
-  background-color: #fff;
+  background: #FFF;
   border-radius: 1rem;
   padding: 1rem 2rem;
   box-sizing: border-box;
+  margin: 1rem auto;
 }
 
+/*beginning updated nav and ul, ol*/
 nav {
   color: #E3AD16;
   background-color: #000000;
   padding: 0;
   display: block;
-  border-bottom: 4px solid #fff;
+  margin: 0;
+  border-bottom: 3px solid #FFF;
 }
+
+ul, ol {
+  list-style-type: none;
+  padding-inline-start: 0px;
+  margin-block-start: 0px;
+  margin-block-end: 0px;
+}
+
+/*end of updated nav and ul, ol*/
 
 nav a {
   color: #E3AD16;
@@ -41,19 +52,12 @@ a {
 
 h1, h2, h3 {
   font-family: 'Rubik', sans-serif;
-  margin: 0;
+  margin: 0
 }
 
 h2 {
   font-weight: 700;
   font-style: italic;
-}
-
-ul, ol {
-  list-style-type: none;
-  padding-inline-start: 0px;
-  margin-block-start: 0px;
-  margin-block-end: 0px;
 }
 
 li {
@@ -67,7 +71,6 @@ ol li {
 
 nav li, nav li a {
   width: 100%;
-  display: block;
   text-align: center;
   display: flex;
   justify-content: center;
@@ -80,6 +83,17 @@ nav li, nav li a {
   padding: 1rem;
 }
 
+/*Footer section*/
+footer {
+  background: #000;
+  color: #E3AD16;
+  width: 100%;
+  margin: 0;
+  padding: 1rem;
+  box-sizing: border-box;
+  text-align: center;
+  font-weight: bold;
+}
 
 /*Media sections*/
 
@@ -108,22 +122,6 @@ nav li, nav li a {
 }
 
 
-/*Footer section*/
-footer {
-  background: #000;
-  color: #E3AD16;
-  width: 100%;
-  margin: 0;
-  padding: 1rem;
-  box-sizing: border-box;
-  text-align: center;
-  font-weight: bold;
-}
-
-.media-page {
-  background: #58889e;
-}
-
 /*When the browser is at least 555px wide*/
 @media (min-width: 555px) {
 
@@ -148,8 +146,8 @@ footer {
   nav li {
     width: 50%;
   }
-}
 
+}
 
 /*When the browser is at least 800px wide*/
 @media (min-width: 800px) {
@@ -165,5 +163,4 @@ footer {
   nav li {
     width: 25%;
   }
-
 }
