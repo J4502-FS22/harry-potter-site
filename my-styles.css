@@ -160,6 +160,8 @@ address {
   width: 100%;
 }
 
+
+
 /*When the browser is at least 555px wide*/
 @media (min-width: 555px) {
 
