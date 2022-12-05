@@ -9,6 +9,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond&family=Roboto+Slab:wght@500&family=Rubik:ital,wght@0,400;1,700&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="my-styles.css">
+
+    <script type="text/javascript" src="gallery.js" defer></script>
   </head>
   <body>
     <a class="skip-link" href="#content">Skip to content</a>
@@ -24,40 +26,46 @@
       <h1>Why You Should Visit Laumeier Sculpture Park</h1>
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas at felis id quam porttitor posuere. Pellentesque nec aliquet est. Nam malesuada consequat condimentum. Aliquam rutrum fermentum odio at mattis. Etiam scelerisque enim sit amet tempor ullamcorper. Vestibulum ultricies metus nibh, ut tristique ligula malesuada vel. Nullam id iaculis est.</p>
 
-      <figure class="gallery-image">
+      <figure class="gallery-image hideThis">
       <img src="images/laumeier-sculpture-eyeball.jpg" alt="A large, 12-foot-tall sculpture of a perfectly round human eyeball sits on a patchy field.">
       <figcaption>
         Tony Tasset's sculpture, "Eye," <time datetime="2007">2007</time>.
       </figcaption>
     </figure>
 
-    <figure class="gallery-image">
+    <figure class="gallery-image hideThis">
       <img src="images/laumeier-sculpture-eyeball-replica.jpg" alt="A small bronze sculpture of a human eye sits on a podium. In the background is a comically large colored version of that eyeball a patchy field.">
       <figcaption>
         Laumeier Sculpture Park includes tactile versions of some of its sculptures, including this version of Tasset's "Eye" sculpture.
       </figcaption>
     </figure>
 
-    <figure class="gallery-image">
+    <figure class="gallery-image hideThis">
       <img src="images/laumeier-sculpture-the-way.jpg" alt="Various red cylinders are stacked around and on top of one another haphazardly on a grassy hill, with the cylinders pointing in different directions.">
       <figcaption>
         Alexander Liberman's "The Way" might be the most recognizable sculpture at Laumeier Sculpture Park. It's 18 salvaged steel oil tanks laid upon each other in an abstract sculpture. It's about 65 feet tall, 100 feet wide, and 100 feet deep.
       </figcaption>
     </figure>
 
-    <figure class="gallery-image">
+    <figure class="gallery-image hideThis">
       <img src="images/laumeier-sculpture-the-way-replica.jpg" alt="A large sculpture with various red cylinders stacked around and on each other on a barren field. In front is a miniature of that sculpture on a podium.">
       <figcaption>
         The tactile version of "The Way" allows people to feel the sculpture up close.
       </figcaption>
     </figure>
 
-    <figure class="gallery-image">
+    <figure class="gallery-image hideThis">
       <img src="images/laumeier-sculpture-tire.jpg" alt="A comically huge tire sits partially buried in mulch on a patchy field. A sign nearby says, 'No climbing on sculpture. Punishable to fullest extent.'">
       <figcaption>
         Marie Watt's sculpture, "Earthmover," <time datetime="2014">2014</time>.
       </figcaption>
     </figure>
+
+    <div class="button_holder">
+      <button id="button_previous">Previous</button>
+      <p id="stepper"></p>
+      <button id="button_next">Next</button>
+    </div>
 
     </main>
     <footer>Patrick Garvin, 2022</footer>
